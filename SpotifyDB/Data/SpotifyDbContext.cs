@@ -16,5 +16,7 @@ namespace SpotifyDB.Data
             string conn = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=SpotifyDb;Integrated Security=True;Connect Timeout=30;";
             optionsBuilder.UseSqlServer(conn);
         }
+
+
     }
 }
